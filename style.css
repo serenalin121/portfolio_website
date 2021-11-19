@@ -502,6 +502,25 @@ section:not(.hero) {
   line-height: 2;
 }
 
+.skill-logos{
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.logos{
+  display: flex;
+  width: 80px;
+  flex-direction: column; 
+  text-align: center;
+  grid-gap: 5px;
+  margin: 6px;
+  gap: 5px;
+  font-size: 13px;
+}
+
+
 /* Motto styles */
 .motto {
   height: 40vh;
