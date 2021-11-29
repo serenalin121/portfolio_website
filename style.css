@@ -353,10 +353,16 @@ section:not(.hero) {
   transition: background-color 0.5s;
 }
 
+.btn-container {
+  display: flex;
+  justify-content: center;
+}
+
 .cta-btn {
   color: var(--dark-color);
-  border: 1px solid var(--dark-color);
-  margin-top: 10px;
+  border: 2px solid var(--dark-color);
+  margin-top: 20px;
+  font-size: large;
 }
 
 .cta-btn:hover {
@@ -502,24 +508,23 @@ section:not(.hero) {
   line-height: 2;
 }
 
-.skill-logos{
+.skill-logos {
   list-style-type: none;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
 
-.logos{
+.logos {
   display: flex;
   width: 80px;
-  flex-direction: column; 
+  flex-direction: column;
   text-align: center;
   grid-gap: 5px;
   margin: 6px;
   gap: 5px;
   font-size: 13px;
 }
-
 
 /* Motto styles */
 .motto {
@@ -692,7 +697,8 @@ section:not(.hero) {
   transition: opacity 0.5s;
 }
 
-.portfolio-item-info:hover, .portfolio-item-info:active {
+.portfolio-item-info:hover,
+.portfolio-item-info:active {
   opacity: 1;
 }
 
@@ -880,7 +886,7 @@ section:not(.hero) {
   }
 
   /* .hero::after { */
-    /* content: "";
+  /* content: "";
     position: fixed;
     top: 0;
     left: 0;
